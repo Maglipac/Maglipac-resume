@@ -1,0 +1,420 @@
+.background {
+  position: absolute;
+  width: 30%; /* Set the width of the border */
+  margin: 0 auto; /* Center the border horizontally */
+  background-color: #005180; /* Set the background color */
+  top: 0;
+  height: 190%;
+  border: 1px solid gray;
+  left: 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .background {
+      width: 100%; /* Adjust width for smaller screens */
+      height: 90%; /* Adjust height for smaller screens */
+      top: 5%; /* Adjust top position for smaller screens */
+      left: 0; /* Reset left positioning */
+  }
+}
+
+  .background2 {
+    position: absolute;
+    width: 63%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    top: 5%;
+    height: 30vh; /* Adjust height for default screens */
+    left: 35%;
+}
+
+
+/* Adjust height for smaller screens */
+@media screen and (max-width: 768px) {
+    .background2 {
+        height: 53vh; /* Adjust height for smaller screens */
+    }
+}
+  /* Add media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+  .background2 {
+      top: 64%; /* Adjust top position for smaller screens */
+      left: 10%; /* Adjust left position for smaller screens */
+      width: 30%; /* Adjust width for smaller screens */
+  }
+}
+  .menu-image3 {
+    position: absolute;
+    top: 7%; /* Adjust the top position as needed */
+    left: 15%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 23%; /* 20% of the parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 248px; /* Limit maximum width */
+    background-color: aliceblue;
+}
+
+/* Add media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+    .menu-image3 {
+        top: 10%; /* Adjust top position for smaller screens */
+        left: 10%; /* Adjust left position for smaller screens */
+        width: 28%; /* Adjust width for smaller screens */
+    }
+}
+.menu-image4 {
+  position: absolute;
+  top: 59%; /* Adjust the top position as needed */
+  left: 8%; /* Adjust the left position as needed */
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 2%; /* Initial width */
+  height: 4%; /* Initial height */
+}
+
+/* Adjust positioning and size for smaller screens */
+@media screen and (max-width: 768px) {
+  .menu-image4 {
+      top: 35%; /* Adjust the top position for smaller screens */
+      left: 10%; /* Adjust the left position for smaller screens */
+      width: 5%; /* Adjust width for smaller screens */
+      height: auto; /* Adjust height for smaller screens */
+      max-width: 40px; /* Limit maximum width */
+  }
+}
+  .menu-image5 {
+    position: absolute;
+    top:67%; /* Adjust the top position as needed */
+    left: 8%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width:2%;
+    height: 4%;
+  }
+  .menu-image6 {
+    position: absolute;
+    top:75%; /* Adjust the top position as needed */
+    left: 8%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width:2%;
+    height: 4%;
+  }
+  .menu-image7 {
+    position: absolute;
+    top:83%; /* Adjust the top position as needed */
+    left: 8%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width:2%;
+    height: 4%;
+  }
+
+  .content { 
+    position: absolute;
+    top: 3%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw; /* Use vw for responsive font size */
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:66%;
+    color:black;
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 768px) {
+    .content {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+    }
+}
+.content1 { 
+  position: absolute;
+  top: 19%;
+  transform: translateX(-50%);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5vw; /* Use vw for responsive font size */
+  white-space: nowrap; /* Prevent text from wrapping */
+  left:66.50%;
+  color:black;
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 768px) {
+  .content1 {
+      font-size: 2vw; /* Adjust font size for smaller screens */
+      top: 22%; /* Adjust top position for smaller screens */
+  }
+}
+  
+  
+  .content3 { 
+    position: absolute;
+    top: 59%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50% ; /* Use vw for responsive font size */
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:12.50%;
+    color:white;
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 768px) {
+    .content3 {
+        font-size: 0vw; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust top position for smaller screens */
+    }
+}
+  .content4{ 
+    position: absolute;
+    top: 67%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:14%;
+    color:white;
+    
+  }
+  .content5{ 
+    position: absolute;
+    top: 74.30%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:11%;
+    color:white;
+    
+  }
+  .content6{ 
+    position: absolute;
+    top: 35%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:10%;
+    color:white;
+    
+  }
+  .content7 { 
+    position: absolute;
+    top: 21.50vw;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5vw; /* Adjust font size for default screens */
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 14%;
+    color: white;
+    font-weight: bold;
+}
+
+/* Adjust positioning and font size for smaller screens */
+@media screen and (max-width: 768px) {
+    .content7 {
+        font-size: 3.5vw; /* Adjust font size for smaller screens */
+        top: 28vw; /* Adjust top position for smaller screens */
+        left: 50%; /* Adjust left position for better centering */
+        transform: translateX(-50%); /* Remove translateY for centering vertically */
+    }
+}
+  .content8{ 
+    position: absolute;
+    top: 83.30%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:15.50%;
+    color:white;
+    
+  }
+  .content9 {
+    position: absolute;
+    top: 90%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 14.80%;
+    color: white;
+    font-weight: bold;
+}
+
+/* Adjust positioning and font size for smaller screens */
+@media screen and (max-width: 768px) {
+    .content9 {
+        top: 70%; /* Adjust the top position for smaller screens */
+        font-size: 3.50vw; /* Adjust font size for smaller screens */
+        left: 50%; /* Adjust left position for better centering */
+        transform: translateX(-50%); /* Remove translateY for centering vertically */
+    }
+}
+  .content10{ 
+    position: absolute;
+    top:100%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:16%;
+    color:white;
+    font-weight: bold;
+  }
+  .content11 { 
+    position: absolute;
+    top: 18vw; /* Adjust top position for default screens */
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 42vw;
+    color: black;
+    font-weight: bold;
+}
+
+/* Adjust font size and positioning for smaller screens */
+@media screen and (max-width: 768px) {
+    .content11 {
+        font-size: 5vw; /* Adjust font size for smaller screens */
+        top: calc(50% - 18vw); /* Adjust top position for default screens */
+        left: 50%; /* Adjust left position for better centering */
+        transform: translateX(-50%); /* Remove translateY for centering vertically */
+    }
+}
+.content12 { 
+  position: absolute;
+  top: 53%; /* Adjust top position for default screens */
+  transform: translateX(-50%);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.50vw;
+  white-space: nowrap; /* Prevent text from wrapping */
+  left: 64%;
+  color: black;
+}
+
+/* Adjust top position for smaller screens */
+@media screen and (max-width: 768px) {
+  .content12 {
+      top: 60%; /* Adjust top position for smaller screens */
+  }
+}
+  .content13{ 
+    position: absolute;
+    top:70%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 41.30vw;
+    color:black;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px) {
+    .content13 {
+        font-size: 5vw; /* Adjust font size for smaller screens */
+        top: calc(50% - 18vw); /* Adjust top position for default screens */
+        left: 50%; /* Adjust left position for better centering */
+    }
+}
+  .content14{ 
+    position: absolute;
+    top:80%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.50vw;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 62.70%;
+    color:black;
+  }
+  @media screen and (max-width: 768px) {
+    .content14 {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+        top: 60%; /* Adjust top position for smaller screens */
+        left: 50%; /* Adjust left position for better centering */
+        transform: translateX(-50%); /* Remove translateY for centering vertically */
+    }
+}
+  
+  .content15{ 
+    position: absolute;
+    top:77%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.30vw;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:46%;
+    color:black;
+  }
+  @media screen and (max-width: 768px) {
+    .content15 {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+        top: 60%; /* Adjust top position for smaller screens */
+        left: 50%; /* Adjust left position for better centering */
+        transform: translateX(-50%); /* Remove translateY for centering vertically */
+    }
+}
+  
+  .content16{ 
+    position: absolute;
+    top:90%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:10%;
+    color:black;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px) {
+    .content16 {
+        top: 60%; /* Adjust top position for smaller screens */
+    }
+  }
+  
+  .content17{ 
+    position: absolute;
+    top:124%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.50vw;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:65%;
+    color:black;
+  }
+  @media screen and (max-width: 768px) {
+    .content17 {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+        top: 60%; /* Adjust top position for smaller screens */
+        left: 50%; /* Adjust left position for better centering */
+        transform: translateX(-50%); /* Remove translateY for centering vertically */
+    }
+}
+  
+  .content18{ 
+    position: absolute;
+    top:130%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:11%;
+    color:white;
+    font-weight: bold;
+  }
+  .content19{ 
+    position: absolute;
+    top:140%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:8.80%;
+    color:white;
+    font-weight: bold;
+  }
+  
+  
